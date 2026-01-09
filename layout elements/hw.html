@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-color: darkgreen;
+            border: 10px solid black;
+        }
+
+        #header{
+            background-color: lightgreen;
+            margin: 20px;
+            height: 40px;
+            text-align: left;
+        }
+
+        #navbar{
+            background-color: lightgreen;
+            margin: 20px;
+            height: 40px;
+            text-align: left;
+
+           
+        }
+         #container{
+               min-height: 500px; 
+               margin: 20px;
+               display: flex;
+            }
+
+    
+        
+        .parntarticle{
+            background-color: lightgreen;
+            height: 300px;
+            text-align: center;
+            width: 700px;
+        }
+
+        .child1{
+            background-color: white;
+            margin: 10px;
+            height: 60px;
+            text-align: left;
+        }
+
+        .child2{
+            background-color: white;
+            margin: 10px;
+            height: 150px;
+            text-align: left;
+        }
+
+        .sec{
+            background-color: lightgreen;
+            height: 150px;
+        }
+
+        .divright{
+        }
+
+       .asidess{
+        display: flex;
+       }
+
+        .aside1{
+            background-color: lightgreen;
+            height: 200px;
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .aside2{
+            background-color: lightgreen;
+            height: 200px;
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .bigaside{
+             background-color: lightgreen;
+            height: 248px;
+            width: 620px;
+            margin: 20px;
+        }
+
+        #footer{
+            background-color: lightgreen;
+            margin: 20px;
+            height: 60px;
+            text-align: left
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h3>Page Header</h3>
+    </header>
+
+    <nav id="navbar">
+        <h3>Nav</h3>
+    </nav>
+
+    <section id="container">
+
+        <div class="divleft">
+
+            <div class="parntarticle">
+                <h3>article</h3>
+
+                <div class="child1">
+                    <h3>Article Header</h3>
+                </div>
+                <div class="child2">
+                    <h3>Main</h3>
+                </div>
+
+            </div>
+
+            <div class="sec">
+                <h3>section</h3>
+            </div>
+        </div>
+
+        <div class="divright">
+            <div class="asidess">
+
+                 <div class="aside1">
+                <h3>Aside</h3>
+            </div>
+
+            <div class="aside2">
+                <h3>Aside</h3>
+            </div>
+
+            </div>
+
+
+             <div class="bigaside">
+                <h3>Aside</h3>
+            </div>
+         </div>
+         
+       
+
+    </section>
+
+    <footer id="footer">
+        <h3>footer</h3>
+    </footer>
+</body>
+</html>
